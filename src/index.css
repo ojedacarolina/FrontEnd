@@ -1,0 +1,55 @@
+.jk {
+  height: 40%;
+  width: 50px;
+}
+
+.footer{
+
+  bottom: 0;
+  width: 100%;
+  height: 1.875rem;
+  background-color: var(--dark);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 100;
+}
+
+.footer > p{
+  font-size: 1em;
+  margin: 0 0.625rem;
+  color: var(--light);
+  font-family: "Gilroy-Regular", sans-serif;
+}
+
+@media(max-width: 768px){
+  .footer > p{
+      font-size: 0.75em;
+  }
+}
+
+.card {
+  width: 18rem;
+}
+
+.dark-content {
+background-color: rgb(58, 171, 236);
+}
+
+
+
+
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
